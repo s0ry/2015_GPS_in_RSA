@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="          GPS_IN_RSA"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="상대 단말 번호"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_gravity="left|top"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/Editnumber"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:text = "010"
+        android:ems="10"
+        android:layout_gravity="right|top"
+        android:layout_column="1"
+        android:layout_below="@+id/numberText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/R_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_column="0"
+        android:layout_alignTop="@+id/Editnumber"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/B_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Key N Receive GPS"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_column="0"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReceiveText"
+        android:text="GPS_IN_RSA"
+        android:layout_below="@+id/B_check"
+        android:layout_marginTop="40px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/R_check"
+        android:layout_alignEnd="@+id/R_check" />
+
+</RelativeLayout>
