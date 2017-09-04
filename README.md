@@ -17,7 +17,7 @@ GPS정보보안을 강화하기 위해 GPS정보에 RSA암호화 기법을 적�
 +
 <p>
   <img src="1.jpg" vspace="10" width="400" height="711" >
-	<img src="2.jpg" vspace="10" width="400" height="711" >
+	<img src="2.jpg" vspace="50" width="400" height="711" >
 </p>
 
 +
