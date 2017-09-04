@@ -25,7 +25,7 @@ private String R_string_number;	// 번호 저장 변수
 private GpsInfo gps;             // GPS 클래스
 private RSA rsa;                 // RSA 클래스
 private String PlainText;       	// 평문
-private String ResultText_C;  	 // 위도 복호화텍스트 저장
+private String ResultText_C;  	// 위도 복호화텍스트 저장
 private String ResultText_L;   	// 경도 복호화 텍스트 저장
 private int count;              // 진행 상태 count
 private int count2;             // 진행 상태 count
@@ -66,10 +66,10 @@ public String GetAddress(){		// 위도, 경도 정보로부터 주소 변환
 + RSA.java
 <pre><code>
 private KeyPair clsKeyPair;  	 // public key, private key 쌍
-private Key clsPublicKey;  		 // public key
+private Key clsPublicKey;  		// public key
 private Key clsPrivateKey;  	 // private key
 private RSAPublicKeySpec clsPublicKeySpec;  	 // 실질적인 public key (module과 exponent)
-private RSAPrivateKeySpec clsPrivateKeySpec;   // 실질적인 private key (module과 exponent)
+private RSAPrivateKeySpec clsPrivateKeySpec;   	// 실질적인 private key (module과 exponent)
 // encrypt 관련
 String strCipher;   // 바이트화 한 것을 다시 String으로 - 암호문
 // decrypt 관련
