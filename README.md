@@ -31,7 +31,7 @@ GPS정보보안을 강화하기 위해 GPS정보에 RSA암호화 기법을 적�
   <img src="5.jpg" vspace="10" width="380" height="675" hspace="30" >
 </p>
 
-+
++ SMS 전송 내용. 실제 송수신 하는 내용은 Key와 암호문이고 암호화 및 복호화는 앱 단위에서 수행
 <p>
   <img src="6.jpg" vspace="10" width="380" height="675" hspace="30" >
 	<img src="7.jpg" vspace="10" width="380" height="675" >
