@@ -65,9 +65,9 @@ public String GetAddress(){		// 위도, 경도 정보로부터 주소 변환
 
 + RSA.java
 <pre><code>
-private KeyPair clsKeyPair;  	 // public key, private key 쌍
+private KeyPair clsKeyPair;  	// public key, private key 쌍
 private Key clsPublicKey;  	// public key
-private Key clsPrivateKey;  	 // private key
+private Key clsPrivateKey;  	// private key
 private RSAPublicKeySpec clsPublicKeySpec;  	// 실질적인 public key (module과 exponent)
 private RSAPrivateKeySpec clsPrivateKeySpec;   	// 실질적인 private key (module과 exponent)
 // encrypt 관련
